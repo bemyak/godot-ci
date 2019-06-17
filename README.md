@@ -2,7 +2,7 @@
 Docker image to export Godot Engine games and deploy web exports.
 
 ## Docker Hub
-https://hub.docker.com/r/barichello/godot-ci/
+https://hub.docker.com/r/bemyak/godot-ci/
 
 ## Usage example
 A `.gitlab-ci.yml` is included in this project as reference, a live example can be seen in [this project](https://github.com/aBARICHELLO/game-off).<br>
