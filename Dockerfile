@@ -1,6 +1,6 @@
-FROM alvrme/alpine-android:android-29
+FROM alvrme/alpine-android:android-30
 LABEL author="artur@barichello.me, bemyak@gmail.com"
-ENV GODOT_VERSION "3.2"
+ENV GODOT_VERSION "3.2.3"
 
 RUN apk add python3 py3-openssl zip \
     && wget -q https://downloads.tuxfamily.org/godotengine/${GODOT_VERSION}/Godot_v${GODOT_VERSION}-stable_linux_headless.64.zip \
